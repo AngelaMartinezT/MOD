@@ -1,0 +1,280 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MOD Nutrition</title>
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img/Logo.png" alt="Logo MOD" class="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="container">
+
+  <section style="display: flex; align-items: center; gap: 20px; position: relative;">
+    <button onclick="showImageSlimShake()" style="background: none; border: none; cursor: pointer;">
+        <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Left Arrow" style="width: 20px;">
+    </button>
+
+    <div id="media-container-slim-shake" style="flex: 1; display: flex; justify-content: center;">
+        <img id="slim-shake-image" src="img/Slim Shake.jpg" alt="Slim Shake" style="width: 100%; max-width: 400px; display: block;">
+        <iframe id="slim-shake-video" src="https://www.instagram.com/p/C0pMC8rPU7o/embed" 
+                width="400" 
+                height="480" 
+                frameborder="0" 
+                scrolling="no" 
+                allowtransparency="true" 
+                style="display: none;">
+        </iframe>
+    </div>
+
+    <button onclick="showVideoSlimShake()" style="background: none; border: none; cursor: pointer;">
+        <img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" alt="Right Arrow" style="width: 20px;">
+    </button>
+
+    <div style="flex: 1; padding: 10px;">
+        <h2>Slim Shake</h2>
+        <p>5lim Shake es un batido ideal para quienes desean perder peso de manera saludable. Con ingredientes termogénicos como té verde y espirulina, ayuda a aumentar el gasto calórico, mientras que las semillas de chía proporcionan saciedad. Además, contiene vitaminas B12, ácido fólico y magnesio para mantener un metabolismo activo. Consúmelo antes de la última comida del día para controlar antojos, sentirte ligera y llena de energía. Sin azúcar, endulzado con estevia natural.</p>
+        <p><strong> $59.900,00 COP</strong></p>
+    </div>
+</section>
+
+<script>
+    function showImageSlimShake() {
+        const image = document.getElementById('slim-shake-image');
+        const video = document.getElementById('slim-shake-video');
+        image.style.display = 'block';
+        video.style.display = 'none';
+    }
+
+    function showVideoSlimShake() {
+        const image = document.getElementById('slim-shake-image');
+        const video = document.getElementById('slim-shake-video');
+        image.style.display = 'none';
+        video.style.display = 'block';
+    }
+</script>
+
+  <section style="display: flex; align-items: center; gap: 20px; position: relative;" >
+    <button onclick="showImage()" style="background: none; border: none; cursor: pointer;">
+        <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Left Arrow" style="width: 20px;">
+    </button>
+
+    <div id="media-container" style="flex: 1; display: flex; justify-content: center;">
+        <img id="fiber-image" src="img/Fiber Gold.jpg" alt="Fiber Gold" style="width: 100%; max-width: 400px; display: block;">
+        <iframe id="fiber-video" src="https://www.instagram.com/p/C02bZBmu9UC/embed" 
+                width="400" 
+                height="480" 
+                frameborder="0" 
+                scrolling="no" 
+                allowtransparency="true" 
+                style="display: none;">
+        </iframe>
+    </div>
+
+    <button onclick="showVideo()" style="background: none; border: none; cursor: pointer;">
+        <img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" alt="Right Arrow" style="width: 20px;">
+    </button>
+
+    <div style="flex: 1; padding: 10px;">
+        <h2>Fiber Gold</h2>
+        <p>Fiber Gold es un complemento nutricional con fibra vegetal, prebióticos y probióticos, ideal para mejorar la digestión y aliviar el estreñimiento o colon irritable. Su fórmula incluye ingredientes como inulina, psyllium, pitahaya, manzana y glucomanano, que equilibran la microbiota intestinal. Además, es endulzado con estevia natural y viene sin azúcar. Acompáñalo con una dieta saludable para obtener beneficios duraderos. Con tu compra recibirás un recetario con tips para su consumo.</p>
+        <p><strong> $59.900,00 COP</strong></p>
+      </div>
+</section>
+
+<script>
+    function showImage() {
+        const image = document.getElementById('fiber-image');
+        const video = document.getElementById('fiber-video');
+        image.style.display = 'block';
+        video.style.display = 'none';
+    }
+
+    function showVideo() {
+        const image = document.getElementById('fiber-image');
+        const video = document.getElementById('fiber-video');
+        image.style.display = 'none';
+        video.style.display = 'block';
+    }
+</script>
+<section style="display: flex; align-items: center; gap: 20px; position: relative;" >
+  <button onclick="showImageGreenArmy()" style="background: none; border: none; cursor: pointer;">
+      <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Left Arrow" style="width: 20px;">
+  </button>
+
+  <div id="media-container-green-army" style="flex: 1; display: flex; justify-content: center;">
+      <img id="green-army-image" src="img/Green Army.jpg" alt="Green Army" style="width: 100%; max-width: 400px; display: block;">
+      <iframe id="green-army-video" src="https://www.instagram.com/p/C0RPwH-u5P7/embed" 
+              width="400" 
+              height="480" 
+              frameborder="0" 
+              scrolling="no" 
+              allowtransparency="true" 
+              style="display: none;">
+      </iframe>
+  </div>
+
+  <button onclick="showVideoGreenArmy()" style="background: none; border: none; cursor: pointer;">
+      <img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" alt="Right Arrow" style="width: 20px;">
+  </button>
+
+  <div style="flex: 1; padding: 10px;">
+      <h2>Green Army</h2>
+      <p>Green Army es un batido verde desintoxicante que combina espirulina, moringa, espinaca y alcachofa para proteger hígado y riñones. Ayuda a reducir la inflamación, mejorar las defensas y eliminar la retención de líquidos. Contiene glutatión, un antioxidante que combate el envejecimiento celular. Es refrescante, delicioso y sin azúcar, endulzado con estevia natural. Incluye un recetario con tips para su consumo. Acompáñalo con hábitos saludables para disfrutar de todos sus beneficios.</p>
+      <p><strong> $78.900,00 COP</strong></p>
+    </div>
+</section>
+
+<script>
+  function showImageGreenArmy() {
+      const image = document.getElementById('green-army-image');
+      const video = document.getElementById('green-army-video');
+      image.style.display = 'block';
+      video.style.display = 'none';
+  }
+
+  function showVideoGreenArmy() {
+      const image = document.getElementById('green-army-image');
+      const video = document.getElementById('green-army-video');
+      image.style.display = 'none';
+      video.style.display = 'block';
+  }
+</script>
+<section style="display: flex; align-items: center; gap: 20px; position: relative;" >
+  <button onclick="showImageRockBody()" style="background: none; border: none; cursor: pointer;">
+      <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Left Arrow" style="width: 20px;">
+  </button>
+
+  <div id="media-container-rock-body" style="flex: 1; display: flex; justify-content: center;">
+      <img id="rock-body-image" src="img/Rock Body.jpg" alt="Rock Body" style="width: 100%; max-width: 400px; display: block;">
+      <iframe id="rock-body-video" src="https://www.instagram.com/p/CzmS5n2u86V/embed" 
+              width="400" 
+              height="480" 
+              frameborder="0" 
+              scrolling="no" 
+              allowtransparency="true" 
+              style="display: none;">
+      </iframe>
+  </div>
+
+  <button onclick="showVideoRockBody()" style="background: none; border: none; cursor: pointer;">
+      <img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" alt="Right Arrow" style="width: 20px;">
+  </button>
+
+  <div style="flex: 1; padding: 10px;">
+      <h2>Rock Body</h2>
+      <p>Rock Body es un batido de colágeno hidrolizado con proteína, vitaminas y minerales como C, magnesio, zinc, ácido fólico y biotina. Fortalece el cabello, las uñas y la piel, ayudando a prevenir la caída y debilidad del cabello, al tiempo que cuida las articulaciones y tonifica la piel. Es ideal para consumir por la noche o como merienda. Sin azúcar, endulzado con estevia natural, y viene con un recetario para guiarte en su consumo. Acompáñalo con hábitos saludables para mejores resultados.</p>
+      <p><strong> $84.900,00 COP</strong></p>
+  </div>
+</section>
+
+<script>
+  function showImageRockBody() {
+      const image = document.getElementById('rock-body-image');
+      const video = document.getElementById('rock-body-video');
+      image.style.display = 'block';
+      video.style.display = 'none';
+  }
+
+  function showVideoRockBody() {
+      const image = document.getElementById('rock-body-image');
+      const video = document.getElementById('rock-body-video');
+      image.style.display = 'none';
+      video.style.display = 'block';
+  }
+</script>
+  
+<section style="display: flex; align-items: center; gap: 20px; position: relative;">
+  <!-- Button to toggle to image (left arrow) -->
+  <button onclick="showImageTimeMachine()" style="background: none; border: none; cursor: pointer;">
+      <img src="https://cdn-icons-png.flaticon.com/512/271/271220.png" alt="Left Arrow" style="width: 20px;">
+  </button>
+
+  <!-- Container for the image and video -->
+  <div id="media-container-time-machine" style="flex: 1; display: flex; justify-content: center;">
+      <img id="time-machine-image" src="img/Time Machine.jpg" alt="Time Machine" style="width: 100%; max-width: 400px; display: block;">
+      <iframe id="time-machine-video" src="https://www.instagram.com/p/CzKOGEqOIaT/embed" 
+              width="400" 
+              height="480" 
+              frameborder="0" 
+              scrolling="no" 
+              allowtransparency="true" 
+              style="display: none;">
+      </iframe>
+  </div>
+
+  <!-- Button to toggle to video (right arrow) -->
+  <button onclick="showVideoTimeMachine()" style="background: none; border: none; cursor: pointer;">
+      <img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" alt="Right Arrow" style="width: 20px;">
+  </button>
+
+  <!-- Product description -->
+  <div style="flex: 1; padding: 10px;">
+      <h2>Time Machine</h2>
+      <p>Time Machine es un batido antioxidante diseñado para combatir el acné, manchas y signos de envejecimiento. Con ingredientes como vitamina C, açaí, arándanos, cúrcuma y jengibre, combate la inflamación, mejora la cicatrización y aporta beneficios anti-envejecimiento. Además, refuerza el balance hormonal con zinc y potasio. Sin azúcar, endulzado con estevia natural, es el complemento ideal para transformar tu piel desde adentro.</p>
+      <p><strong> $76.900,00 COP</strong></p>
+  </div>
+</section>
+
+<script>
+  function showImageTimeMachine() {
+      const image = document.getElementById('time-machine-image');
+      const video = document.getElementById('time-machine-video');
+      image.style.display = 'block';
+      video.style.display = 'none';
+  }
+
+  function showVideoTimeMachine() {
+      const image = document.getElementById('time-machine-image');
+      const video = document.getElementById('time-machine-video');
+      image.style.display = 'none';
+      video.style.display = 'block';
+  }
+</script>
+</main>
+
+<footer class="footer">
+  <div class="container">
+      <div class="footer-content">
+          <div class="footer-logo">
+              <img src="img/Logo.png" alt="Logo MOD" class="logo-footer">
+          </div>
+          <div class="footer-contact">
+              <p><strong>Contáctanos:</strong></p>
+              <div class="social-icons">
+                  <a href="https://www.instagram.com/modcolombia/" target="_blank" class="social-icon">
+                      <img src="img/instagram.png" alt="Instagram" class="social-icon-img">
+                  </a>
+                  <a href="https://wa.me/3022690521" target="_blank" class="social-icon">
+                      <img src="img/whatsapp.png" alt="WhatsApp" class="social-icon-img">
+                  </a>
+              </div>
+              <p><strong>Teléfono:</strong> 302 2690521</p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MOD Nutrition</title>
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="img/Logo.png" alt="Logo MOD" class="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+      </div>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="container">
+
+  <section class="contact-form">
+    <h2 class="form-title">Contáctanos</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Nombre y apellidos:</label>
+            <input type="text" id="name" name="name" placeholder="Escribir" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Escribir" required>
+        </div>
+        <div class="form-group">
+            <label for="id-type">Tipo de identificación:</label>
+            <select id="id-type" name="id-type" required>
+                <option value="" disabled selected>Seleccionar</option>
+                <option value="cc">Cédula de ciudadanía</option>
+                <option value="ce">Cédula de extranjería</option>
+                <option value="passport">Pasaporte</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="id-number">Número documento de identidad:</label>
+            <input type="text" id="id-number" name="id-number" placeholder="Escribir" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Celular:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Escribir" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Escribe aquí tu sugerencia:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Escribir" required></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="submit-button"><strong> Enviar</strong></button>
+        </div>
+    </form>
+</section>
+  
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+      <div class="footer-content">
+          <div class="footer-logo">
+              <img src="img/Logo.png" alt="Logo MOD" class="logo-footer">
+          </div>
+          <div class="footer-contact">
+              <p><strong>Contáctanos:</strong></p>
+              <div class="social-icons">
+                  <a href="https://www.instagram.com/modcolombia/" target="_blank" class="social-icon">
+                      <img src="img/instagram.png" alt="Instagram" class="social-icon-img">
+                  </a>
+                  <a href="https://wa.me/3022690521" target="_blank" class="social-icon">
+                      <img src="img/whatsapp.png" alt="WhatsApp" class="social-icon-img">
+                  </a>
+              </div>
+              <p><strong>Teléfono:</strong> 302 2690521</p>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
